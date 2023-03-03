@@ -6,7 +6,6 @@ import {
   Header,
   AuthorImage,
   ThisIs,
-  MailIcon,
   ButtonText,
 } from "./style";
 import authorImg from "../images/authorPhoto.jpg";
@@ -15,7 +14,7 @@ import mail from "../images/mail.svg";
 const AboutAuthor = () => {
   return (
     <Container>
-      <AuthorImage src={authorImg} />
+      <AuthorImage src={authorImg} alt="Piotr Paczuski" />
       <Content>
         <ThisIs>This is</ThisIs>
         <Header>Piotr Paczuski</Header>
@@ -24,8 +23,8 @@ const AboutAuthor = () => {
           looking for new job opportunities.
         </Description>
         <Button>
-            <MailIcon src={mail}/>
-            <ButtonText>Hire Me</ButtonText>
+          <img src={mail} alt="mail icon" />
+          <ButtonText>Hire Me</ButtonText>
         </Button>
       </Content>
     </Container>

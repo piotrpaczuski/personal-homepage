@@ -55,11 +55,6 @@ export const Button = styled.button`
   gap: 16px;
 `;
 
-export const MailIcon = styled.img`
-  width: 24px;
-  height: 24px;
-`;
-
 export const ButtonText = styled.div`
   color: ${({ theme }) => theme.colors.white};
   font-size: 20px;
