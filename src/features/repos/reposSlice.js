@@ -15,6 +15,6 @@ export const reposSlice = createSlice({
 
 export const { setData, fetchGithubRepos } = reposSlice.actions;
 
-export const selectData = ({ repos }) => repos.data;
+export const selectTitle = ({ repos }) => repos.data;
 
 export default reposSlice.reducer;

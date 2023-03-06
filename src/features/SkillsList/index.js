@@ -7,7 +7,7 @@ const SkillsList = ({header, skills}) => {
       <Line />
       <Skills>
         {skills.map((skill) =>
-          <Skill>{skill}</Skill>
+          <Skill key={skill}>{skill}</Skill>
         )}
       </Skills>
     </Container>
